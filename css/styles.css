@@ -10,7 +10,6 @@ html, body{
     overflow: hidden;
     position: relative;
     font-family: 'Orbitron','Roboto';
-    /* background: hsl(40, 30%, 70%); */
     font-size: 3vw;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
@@ -50,17 +49,8 @@ ul li:last-child{
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0); /*default position off the screen */
 }
-#gen{
-    /* background: hsl(130, 30%, 70%); */
-    background-color: #BDC7FF;
-}
-#cast{
-    /* background-color: hsl(255, 30%, 70%); */
-    background-color: #7087FF;
-}
-#rating{
-    /* background-color: hsl(180, 30%, 70%); */
-    background-color: #5E647F;
+#rating, #gen, #cast{
+    background-color: #b4b6be;
 }
 [data-role="page"] h2{
     font-size: 3rem;
